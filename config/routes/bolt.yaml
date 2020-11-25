@@ -23,3 +23,7 @@ controllers:
 extensions:
     resource: .
     type: bolt_extensions
+
+reset_password:
+    resource: '../../vendor/bolt/core/src/Controller/ResetPasswordController.php'
+    type: annotation

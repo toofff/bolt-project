@@ -178,9 +178,6 @@
             ".php_cs.dist"
         ]
     },
-    "fzaninotto/faker": {
-        "version": "v1.9.1"
-    },
     "guzzlehttp/psr7": {
         "version": "1.7.0"
     },

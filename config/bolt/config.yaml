@@ -179,3 +179,16 @@ upload_location: "{contenttype}/{year}/{month}/"
 # For all options, check the official curl documentation here https://curl.haxx.se/libcurl/c/curl_easy_setopt.html
 curl_options:
     verify_peer: true
+
+reset_password_settings:
+    show_already_requested_password_notice: true
+    mail_from: "do-not-reply@example.org"
+    mail_name: "Bolt CMS"
+    mail_subject: "Your password reset request"
+    mail_template: "reset_password/email.html.twig"
+
+# Options for user's avatar
+user_avatar:
+    upload_path: avatars
+    extensions_allowed: ['png', 'jpeg', 'jpg', 'gif']
+    default_avatar: '' # Put path of file locate in files directory
